@@ -13,9 +13,9 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 @Configuration
 @EnableAutoConfiguration
 @EnableWebSecurity
-@ComponentScan({"com.balazsholczer"})
-@EnableJpaRepositories({"com.balazsholczer"})
-@EntityScan({"com.balazsholczer"})
+@ComponentScan({"com.carlita"})
+@EnableJpaRepositories({"com.carlita"})
+@EntityScan({"com.carlita"})
 public class SpringBootApplication extends SpringBootServletInitializer {
 
 	@Override
